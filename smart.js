@@ -54,5 +54,5 @@ app.get('/Reach_Us',(req,res)=>
 
 app.listen(port,()=>{
 
-    console.log('sever running successfully in port no:-${port}');
+    console.log(`sever running successfully in port no:-${port}`);
 });
